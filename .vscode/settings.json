@@ -1,9 +1,8 @@
 {
-    "azureFunctions.deploySubpath": "src/slsSecJs",
+    "azureFunctions.deploySubpath": "src/slsSecPython",
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.pythonVenv": ".venv",
-    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~2",
-    "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "npm prune"
+    "debug.internalConsoleOptions": "neverOpen"
 }
